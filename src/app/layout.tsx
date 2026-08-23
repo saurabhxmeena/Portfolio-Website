@@ -36,7 +36,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <TooltipProvider>
+          <TooltipProvider delayDuration={0}>
             <div className="max-w-2xl mx-auto px-6 py-12 sm:py-24 mb-20">
               {children}
             </div>

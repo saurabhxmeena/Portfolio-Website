@@ -31,8 +31,8 @@ export function Navbar() {
 
   return (
     <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14">
-      <div className="fixed bottom-0 inset-x-0 h-16 w-full bg-background to-transparent backdrop-blur-lg [-webkit-mask-image:linear-gradient(to_top,black,transparent)] dark:bg-background"></div>
-      <Dock className="z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background/90 backdrop-blur-xl rounded-full border border-border/50 shadow-lg transform-gpu dark:bg-background/80 dark:border-white/10 dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]">
+      {/* Removed solid background gradient to allow dock transparency to work */}
+      <Dock className="z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background/80 backdrop-blur-xl rounded-full border border-foreground/20 shadow-2xl transform-gpu">
         {/* Home */}
         {navItems.map((item) => (
           <DockIcon key={item.href}>
