@@ -111,30 +111,12 @@ export default function Page() {
         </BlurFade>
       </section>
 
-      {/* What I'm up to */}
-      <section id="status">
-        <BlurFade delay={BLUR_FADE_DELAY * 9}>
-          <h2 className="text-xl font-bold mb-2">what i'm up to</h2>
-          <p className="text-sm text-muted-foreground mb-4">{siteConfig.status.tagline}</p>
-        </BlurFade>
-        <BlurFade delay={BLUR_FADE_DELAY * 10}>
-          <div className="flex flex-col space-y-2.5">
-            {siteConfig.status.items.map((item, idx) => (
-              <div key={idx} className="flex items-start gap-3 text-sm">
-                <div className="shrink-0 mt-2 size-1.5 rounded-full bg-muted-foreground/40" />
-                <span className="text-muted-foreground leading-relaxed">{item.text}</span>
-              </div>
-            ))}
-          </div>
-        </BlurFade>
-      </section>
-
       {/* Skills */}
       <section id="skills">
-        <BlurFade delay={BLUR_FADE_DELAY * 11}>
+        <BlurFade delay={BLUR_FADE_DELAY * 9}>
           <h2 className="text-xl font-bold mb-4">skills</h2>
         </BlurFade>
-        <BlurFade delay={BLUR_FADE_DELAY * 12}>
+        <BlurFade delay={BLUR_FADE_DELAY * 10}>
           <div className="flex flex-wrap gap-2">
             {siteConfig.skills.map((skill, idx) => (
               <span
@@ -150,11 +132,11 @@ export default function Page() {
 
       {/* Contact Me */}
       <section id="contact" className="flex flex-col items-center text-center -mt-4 sm:-mt-6">
-        <BlurFade delay={BLUR_FADE_DELAY * 13}>
+        <BlurFade delay={BLUR_FADE_DELAY * 11}>
           <h2 className="text-xl font-bold mb-1">contact me</h2>
           <p className="text-sm text-muted-foreground mb-6">feel free to reach out anytime</p>
         </BlurFade>
-        <BlurFade delay={BLUR_FADE_DELAY * 14}>
+        <BlurFade delay={BLUR_FADE_DELAY * 12}>
           <a
             href={`mailto:${siteConfig.social.Email.url.replace('mailto:', '')}`}
             className="inline-flex items-center gap-2 rounded-full border border-border/50 bg-muted/30 px-6 py-3 text-sm font-medium text-foreground hover:bg-muted transition-colors"

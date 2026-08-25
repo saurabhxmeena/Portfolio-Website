@@ -19,10 +19,9 @@ and when I'm away from screens, I'm probably reading a book.`,
   avatarUrl: "/profile2.jpg",
   skills: [
     "Python",
-    "Tailwind CSS",
+    "TypeScript",
     "React",
     "Next.js",
-    "TypeScript",
     "PostgreSQL",
     "GitHub"
   ],
