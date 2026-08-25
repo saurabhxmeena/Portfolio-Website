@@ -20,7 +20,7 @@ export default function Page() {
               </h1>
             </BlurFade>
             <BlurFade delay={BLUR_FADE_DELAY * 2}>
-              <div className="max-w-[600px] text-base text-muted-foreground mt-2">
+              <div className="max-w-[600px] text-base text-muted-foreground">
                 <span className="block sm:inline">been here for </span>
                 <span className="block sm:inline"><RealTimeAge birthDate={siteConfig.birthDate} /> years</span>
               </div>
@@ -66,7 +66,7 @@ export default function Page() {
       {/* Projects */}
       <section id="projects">
         <BlurFade delay={BLUR_FADE_DELAY * 5}>
-          <h2 className="text-xl font-bold mb-4">cool projects I made</h2>
+          <h2 className="text-xl font-bold mb-0">cool projects I made</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 6}>
           <div className="flex flex-col">
