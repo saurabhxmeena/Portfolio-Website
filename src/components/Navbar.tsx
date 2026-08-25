@@ -20,13 +20,14 @@ export function Navbar() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line
     setMounted(true);
   }, []);
 
   const navItems = siteConfig.navbar;
   // Social items
   const socialEntries = Object.entries(siteConfig.social).filter(
-    ([_, social]) => social.navbar
+    ([, social]) => social.navbar
   );
 
   return (

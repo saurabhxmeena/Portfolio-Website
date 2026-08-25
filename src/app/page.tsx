@@ -3,7 +3,6 @@ import { RealTimeAge } from "@/components/RealTimeAge";
 import { BlurFade } from "@/components/BlurFade";
 import { ProjectCard } from "@/components/ProjectCard";
 import Image from "next/image";
-import { Copy } from "lucide-react";
 
 const BLUR_FADE_DELAY = 0.04;
 
