@@ -46,12 +46,12 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <div className="flex flex-col space-y-4 text-sm text-muted-foreground leading-relaxed">
             {siteConfig.summary.split('\n\n').map((paragraph, idx) => {
-              if (paragraph.includes("YouTube")) {
-                const parts = paragraph.split("YouTube");
+              if (paragraph.includes("I make tech videos on YouTube.")) {
+                const parts = paragraph.split("I make tech videos on YouTube.");
                 return (
                   <p key={idx}>
                     {parts[0]}
-                    <a href="https://www.youtube.com/@saurabhxmeena" target="_blank" rel="noopener noreferrer" className="text-foreground underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors">YouTube</a>
+                    <a href="https://www.youtube.com/@saurabhxmeena" target="_blank" rel="noopener noreferrer" className="text-foreground underline decoration-foreground underline-offset-4 font-medium transition-opacity hover:opacity-80">I make tech videos on YouTube.</a>
                     {parts[1]}
                   </p>
                 );
