@@ -51,7 +51,7 @@ export default function Page() {
                 return (
                   <p key={idx}>
                     {parts[0]}
-                    <a href="https://www.youtube.com/@saurabhxmeena" target="_blank" rel="noopener noreferrer" className="text-foreground hover:underline underline-offset-4">YouTube</a>
+                    <a href="https://www.youtube.com/@saurabhxmeena" target="_blank" rel="noopener noreferrer" className="text-foreground underline underline-offset-4 decoration-border hover:decoration-foreground transition-colors">YouTube</a>
                     {parts[1]}
                   </p>
                 );
