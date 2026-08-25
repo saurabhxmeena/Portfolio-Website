@@ -17,4 +17,3 @@ if you want to run it locally:
 3. run `npm run dev`
 4. open `http://localhost:3000`
 
-feel free to reach out if you have any questions or just want to say hi!
