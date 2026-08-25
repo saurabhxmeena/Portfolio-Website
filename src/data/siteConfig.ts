@@ -11,9 +11,9 @@ export const siteConfig = {
   description: "software developer",
   summary: `tldr; learnt by building and breaking things on the internet.
 
-open to freelance projects and interesting work opportunities.
-
 Right now I just build stuff!
+
+open to freelance projects and full‑time opportunities.
 
 In my free time, I make tech videos on YouTube.`,
   avatarUrl: "/profile2.jpg",
