@@ -32,7 +32,7 @@ export function Navbar() {
   return (
     <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14">
       {/* Removed solid background gradient to allow dock transparency to work */}
-      <Dock className="z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background/80 backdrop-blur-xl rounded-full border border-foreground/20 shadow-2xl transform-gpu">
+      <Dock className="z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center px-1 bg-background/50 backdrop-blur-xl rounded-full border border-foreground/20 shadow-2xl transform-gpu">
         {/* Home */}
         {navItems.map((item) => (
           <DockIcon key={item.href}>

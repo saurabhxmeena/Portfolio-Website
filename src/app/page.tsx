@@ -9,7 +9,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col space-y-12 sm:space-y-16">
+    <main className="flex flex-col space-y-8 sm:space-y-12">
       {/* Hero */}
       <section id="hero">
         <div className="flex justify-between items-start gap-4">
@@ -40,7 +40,7 @@ export default function Page() {
       </section>
 
       {/* About */}
-      <section id="about" className="-mt-4 sm:-mt-6">
+      <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold mb-0">about</h2>
         </BlurFade>
@@ -78,7 +78,7 @@ export default function Page() {
       </section>
 
       {/* Education */}
-      <section id="education" className="-mt-4 sm:-mt-6">
+      <section id="education">
         <BlurFade delay={BLUR_FADE_DELAY * 7}>
           <h2 className="text-xl font-bold mb-4">education</h2>
         </BlurFade>
@@ -131,7 +131,7 @@ export default function Page() {
       </section>
 
       {/* Contact Me */}
-      <section id="contact" className="flex flex-col items-center text-center -mt-4 sm:-mt-6">
+      <section id="contact" className="flex flex-col items-center text-center">
         <BlurFade delay={BLUR_FADE_DELAY * 11}>
           <h2 className="text-xl font-bold mb-1">contact me</h2>
           <p className="text-sm text-muted-foreground mb-6">feel free to reach out anytime</p>

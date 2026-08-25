@@ -16,7 +16,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
   return (
     <div
-      className="flex items-start gap-3 py-4 border-b border-border/50 last:border-0 cursor-pointer group"
+      className="flex items-start gap-3 py-4 border-b border-border/50 last:border-0 last:pb-0 cursor-pointer group"
       onClick={() => setIsExpanded(!isExpanded)}
     >
       {/* Logo */}
