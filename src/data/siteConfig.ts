@@ -4,7 +4,7 @@ import { Icons } from "@/components/icons";
 export const siteConfig = {
   name: "Saurabh Meena",
   initials: "SM",
-  url: "https://saurabhmeena.dev",
+  url: "https://srbhxme.site",
   location: "India",
   locationLink: "",
   birthDate: new Date("2006-09-27"),
