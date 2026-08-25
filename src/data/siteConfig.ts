@@ -15,9 +15,7 @@ open to freelance projects and interesting work opportunities.
 
 Right now I just build stuff!
 
-In my free time, I make tech videos on YouTube.
-
-and when I'm away from screens, I'm probably reading a book.`,
+In my free time, I make tech videos on YouTube.`,
   avatarUrl: "/profile2.jpg",
   skills: [
     "Python",
