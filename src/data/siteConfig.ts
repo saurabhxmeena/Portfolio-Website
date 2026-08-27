@@ -70,7 +70,7 @@ In my free time, I make tech videos on YouTube.`,
       title: "Seekho Dance",
       subtitle: "learn choreographies from the songs you love",
       dates: "jan 2026",
-      logoUrl: "/project-1.svg",
+      logoUrl: "/seekho-dance.png",
       description: "Direct step-by-step dance tutorials for viral songs discovered on YouTube. Built for dancers with horizontal mirror mode, custom speed control, and 8-count loop practice.",
       links: [
         { type: "GitHub", href: "https://github.com/saurabhxmeena" },
