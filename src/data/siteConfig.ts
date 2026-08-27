@@ -68,12 +68,12 @@ In my free time, I make tech videos on YouTube.`,
   projects: [
     {
       title: "Seekho Dance",
-      subtitle: "learn choreographies from the songs you love",
+      subtitle: "step-by-step dance tutorials",
       dates: "jan 2026",
       logoUrl: "/seekho-dance.png",
-      description: "Direct step-by-step dance tutorials for viral songs discovered on YouTube. Built for dancers with horizontal mirror mode, custom speed control, and 8-count loop practice.",
+      description: "A dance learning platform featuring mirror mode, speed controls, and practice loops.",
       links: [
-        { type: "GitHub", href: "https://github.com/saurabhxmeena" },
+        { type: "GitHub", href: "https://github.com/saurabhxmeena/Seekho-Dance" },
         { type: "Live site", href: "https://seekhodance.vercel.app/" },
       ],
     },
