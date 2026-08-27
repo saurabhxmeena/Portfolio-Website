@@ -67,14 +67,14 @@ In my free time, I make tech videos on YouTube.`,
   ],
   projects: [
     {
-      title: "QuickNote",
-      subtitle: "a fast, minimal note-taking app",
+      title: "Seekho Dance",
+      subtitle: "learn choreographies from the songs you love",
       dates: "jan 2026",
       logoUrl: "/project-1.svg",
-      description: "A lightweight note-taking web app with markdown support, auto-save, and cloud sync.",
+      description: "Direct step-by-step dance tutorials for viral songs discovered on YouTube. Built for dancers with horizontal mirror mode, custom speed control, and 8-count loop practice.",
       links: [
-        { type: "GitHub", href: "#" },
-        { type: "Live site", href: "#" },
+        { type: "GitHub", href: "https://github.com/saurabhxmeena" },
+        { type: "Live site", href: "https://seekhodance.vercel.app/" },
       ],
     },
     {
